@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styel.css">
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="formSign p-5 mx-auto   col-md-6 ">
+                    <h2 class="text-center mb-4 text-info">Smart Login System</h2>
+
+                    <div class="mb-3">
+                         <input type="email" class="text-white form-control bg-transparent" id="loginEmail" placeholder="Enter you email">
+                   
+                    </div>
+                    <div class="mb-4">
+                        <input type="password" class="text-white form-control bg-transparent" id="loginPassword" placeholder="Enter you Password">  
+                      
+                    </div>
+
+                    <p class="text-danger text-center d-none" id="fillMsg">fill the inputs first</p>
+                    <p class="text-danger text-center d-none" id="wrongMsg">your email or password is incorrect</p>
+                    <a class="btn btn-outline-info w-100 mb-3 text-decoration-none" id="loginBtn" onclick="login()">Login</a>
+                    <p class="text-white text-centerkm">don't have an accoount? <a href="signUp.html" class="text-white text-decoration-none">Sign Up</a></p>
+                    </div>
+        </div>
+    </div>
+    <script src="js/Script.js"></script>
+</body>
+</html>

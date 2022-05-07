@@ -1,0 +1,14 @@
+body{
+    background-color: #24353f;
+}.formSign{
+    box-shadow:  -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    width: 100%;
+    margin-top: 4%;
+}
+.s-nav{
+    background-color: #24353f; 
+    box-shadow:  -5px 2px 54px -9px rgba(0, 0, 0, 1);
+
+}.home{
+    transform: translatey(140%);
+}
